@@ -49,3 +49,11 @@ figcaption {
     height: auto;
     border: 2px solid #000000;
   }
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(65, 167, 62);
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.0;
+    text-decoration: underline;
+}
