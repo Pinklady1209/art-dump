@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    height: 100vh;
+    background: linear-gradient(180deg, #A50062, #D62900, #FF9B55, #FFFFFF, #D461A6,#A50062);
+}
+img {
+    width: 500px;
+    height: 750px;
+}
+h1 {
+    text-decoration: underline;
+}
+.hstyle {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pstyle {
+    font-family: "comic-sans", serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: center;
+}
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(65, 167, 62);
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.0;
+}
+figcaption {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(65, 167, 62);
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.0; 
+}
+.image-row {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.image-row img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+  }
