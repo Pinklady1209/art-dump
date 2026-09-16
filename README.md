@@ -1,2 +1,16 @@
 # Art Dump
-Just a little web for me to post about the art I've done. I've spent about 4 hours on this but thats just because I'm new and I've just been getting started with HTML and CSS.
+A HTML & CSS website for art and doodles.
+
+[Click here to take a look!](https://pinklady1209.github.io/art-dump/)
+
+![Alt text](art-peices/READMEphoto.png)
+
+## Features
+    - OC drawings
+    - Just random people/creatures
+    - Captions to each image
+    - Lesbian flag background
+
+## Running on your own
+
+Download the project files and open up `index.html`!
