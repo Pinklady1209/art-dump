@@ -48,3 +48,12 @@ ul li a:hover {
   color: white;
   text-align: center;
 }
+img{
+  border-radius: 25px;
+  height: 80px;
+  width: auto;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
