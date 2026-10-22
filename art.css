@@ -3,6 +3,9 @@ body{
   padding: 0;
   background-color: #F4EAE1;
   font-family: 'Indie Flower', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 h1{
   color: #D2629C;
@@ -47,6 +50,7 @@ ul li a:hover {
   background-color: #E34D3E;
 }
 .footer{
+  margin-top: auto;
   left: 0;
   right: 0;
   padding: 20px;
