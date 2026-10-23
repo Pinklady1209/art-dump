@@ -76,11 +76,13 @@ img{
 .image-row img {
     width: 300px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 50px;
+    margin-right: 50px;
     border-style: dashed;
     border-color: #E34D3E;
     border-width: 8px;
+    transition: transform .2s;
 }
 .image-row-reverse{
   flex-direction: row-reverse;
@@ -94,9 +96,35 @@ img{
 .image-row-reverse img {
     width: 300px;
     height: auto;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-bottom: 50px;
     border-style: dashed;
     border-color: #E34D3E;
     border-width: 8px;
+    transition: transform .2s;
+}
+.image-row-reverse img:hover{
+    transform: scale(1.5);
+}
+.image-row img:hover{
+    transform: scale(1.5);
+}
+.image-row-bottom {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.image-row-bottom img {
+    width: 300px;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 140px;
+    margin-right: 50px;
+    border-style: dashed;
+    border-color: #E34D3E;
+    border-width: 8px;
+    transition: transform .2s;
+}
+.image-row-bottom img:hover{
+    transform: scale(1.5);
 }
