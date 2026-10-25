@@ -20,6 +20,7 @@ p1{
   border-radius: 25px;
   border: 10px solid #C13284;
   margin-right: 50px;
+  margin-left: 50px;
   padding: 20px;
   width: auto;
   height: auto;
@@ -127,4 +128,26 @@ img{
 }
 .image-row-bottom img:hover{
     transform: scale(1.5);
+}
+.image-row-reverse-bottom {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.image-row-reverse-bottom img {
+    width: 300px;
+    height: auto;
+    margin-right: 100px;
+    margin-bottom: 140px;
+    margin-left: 50px;
+    border-style: dashed;
+    border-color: #E34D3E;
+    border-width: 8px;
+    transition: transform .2s;
+}
+.image-row-reverse-bottom img:hover{
+    transform: scale(1.5);
+}
+.image-row-reverse-bottom{
+  flex-direction: row-reverse;
 }
